@@ -1,3 +1,5 @@
+#simple script to generate SSL certificates with openssl
+
 mkdir local-certs &&
 cd local-certs &&
 openssl genrsa -out nginx.key 2048 &&

@@ -1,1 +1,2 @@
-/local-certs
+/servers/local-certs
+/balancer/local-certs
