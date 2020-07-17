@@ -1,2 +1,3 @@
 /servers/local-certs
 /balancer/local-certs
+/balancer/nginx.conf
