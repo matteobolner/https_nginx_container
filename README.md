@@ -1,5 +1,4 @@
-work in progress for the implementation of a load balancer running nginx over HTTPS on a docker swarm;  
-what works: i can run a nginx server over https and connect to it  
-what needs to be done: modify the nginx.conf as seen in the lectures but in a way that works with https
+Implementation of a docker service on a swarm, consisting of 5 replicas of a nginx server with https access; the SSL certificates for https access are created with OpenSSL and managed through docker secrets. The nginx configuration file nginx.conf is managed through docker config; it is not encrypted, which is not necessary since it contains no sensitive data.
 
-This repository is not part of the bdp2_assignments repository to better synchronize autobuilds with dockerhub
+To do: -load balancer 
+
